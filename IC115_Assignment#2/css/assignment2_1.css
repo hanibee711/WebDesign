@@ -1,0 +1,91 @@
+body {
+    background-image: url('../images/art-background4.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+   
+  }
+  body
+  {
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+  }
+ 
+  main{
+    width:30%
+  }
+  /* Style the header */
+  header {
+    background-color: lightgrey;
+    padding: 1px;  
+    
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+  nav p{
+    padding:2px 15% 2px 2px ;
+    background: rgba(66, 66, 66, 0.5);
+    color:white;
+    width:fit-content;
+    
+   
+  }
+  
+
+  section {
+     padding: 10px;
+     background-color: rgba(225, 225, 225, 0.5);
+     box-shadow: 10px 20px 30px #030308; 
+    
+  }
+
+  .asterisk{
+  color:#ff0000;
+  }
+
+  img{
+    border: 1pt solid white;
+    width:30%;
+}
+.main2{
+  box-sizing: border-box;
+  width:30%;
+  background-color: rgba(33, 33, 33, 0.5);
+  box-shadow: 10px 20px 30px #030308; 
+}
+
+
+/* Style the header */
+.main2  article { 
+  padding: 30px 15px 15px 15px;  
+  
+  
+}
+.main2 p{
+  color:white;
+}
+
+.main1{
+  box-sizing: border-box;
+  width:30%;
+  background-color: rgba(33, 33, 33, 0.5);
+  color:white;
+  box-shadow: 10px 20px 30px #030308; 
+}
+
+
+
+  
+
+
+
+
+
+
+ 
+  
+  
+  
+      
+        
+ 

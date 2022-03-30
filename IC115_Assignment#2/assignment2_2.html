@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8" />
+ <title> My Sample Art Store </title>
+ <link rel="stylesheet" href="css/assignment2_2.css" />
+ <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+ <script>
+      function myFunction() {
+        document.getElementById("myForm").reset();
+      }
+      </script>
+      
+</head>
+<body>  
+       
+    <div id="headdiv">   
+      <h2>Share Your Travels</h2>     
+      <p>let us know where you've been</p>           
+    </div>  
+    <div id="bg">
+    <form action="http://www.randyconnolly.com/tests/process.php" method="get" id="myForm" >  
+          
+      <div id="photo"> 
+            <h2>
+                  Photo Details
+            </h2> </div>
+          <div  class="fulldiv">
+            <div class ="freestyle">
+                
+                         <label >Title:</label>   <br>
+                         <input type="text" name="title" />  <br>
+
+                  <label> Description:</label>  <br>
+                         <textarea rows="3" cols="15" name="description"> </textarea>  <br>
+                  
+            </div>
+ <div class="leftdiv">   
+    <table>
+       <tr>    
+            <td >Continent</td>  </tr>  
+       <tr>
+       <td>
+            <select name="continent"> 
+                  <option value="Choose continent" selected="selected">Choose continent</option>   
+                  <option value="Asia">Asia</option>    
+                  <option value="Africa">Africa</option>  
+                  <option value="Australia">Australia</option>  
+                  <option value="Antarctica">Antarctica</option> 
+                  <option value="North America">North America</option> 
+                  <option value="South America">South America</option> 
+                  <option value="Europe">Europe</option>       
+                  </select> 
+       </td>
+       </tr>
+       <tr>    
+            <td >Country</td>  </tr>  
+       <tr>
+             <td>
+                  <select name="country" > 
+                        <option value="Choose country" selected="selected">Choose country</option>   
+                        <option value="America">America</option>    
+                        <option value="Canada">Canada</option>    
+                        <option value="Germany">Germany</option>    
+                        <option value="India">India</option>     
+                        </select>   
+             </td>
+       </tr>
+       <tr>    
+             <td>
+                  <label>City</label></td></tr>
+                  <tr>    
+                        <td>
+                  <input type="text" name="city" list="cities" />
+                  
+                  <datalist id="cities">
+                      <option>Calcutta</option>
+                      <option>Calgary</option>
+                      <option>London</option> 
+                      <option>Los Angeles</option>
+                      <option>Paris</option> 
+                      <option>Prague</option>
+                   </datalist>
+             </td>
+           
+           
+     </tr>  
+</table>
+  </div>
+     
+     
+      
+ 
+<div class="rightdiv">
+      <table class="righttab1">
+            <tr>
+                  <td>
+                        <label>CopyRights</label>
+                  </td>
+            </tr>
+            <tr>
+                  <td>
+                        
+            <input type="radio" id="copyright" name="copyright" value="1"/> All rights reserved    
+            <br>
+            <input type="radio" id="copyright" name="copyright" value="2" checked/> Creative Commons <br/> 
+      </td>
+                   
+            
+      </tr>
+      </table>
+      <table class="righttab2">
+            <tr>
+                  <td>
+                        <label>Creative Commons Types</label>
+                  </td>
+            </tr> 
+      <tr>
+            <td>
+                 
+           <input type="checkbox" id="attribution" name="index[]" value=1>
+           <label for="attribution">Attribution</label><br>
+           <input type="checkbox" id="noncommercial" name="index[]" value=2>
+           <label for="noncommercial">Noncommercial</label><br>
+           <input type="checkbox" id="noderivative" name="index[]" value=3>
+           <label for="noderivative">No Derivative Works</label><br><br>
+
+            </td>
+      </tr>
+      </table>
+</div> 
+      <div id="terms">
+            I accept the software license
+            <input type="checkbox" name="accept" ></div>
+            <div class="leftdiv1">
+      <table>
+
+            <tr>
+                  <td>
+                   <label>Rate this photo:<br>
+                         <input type="number" min="1" max="5" name="rate"/>
+                    
+                  </td>
+            </tr>
+            <tr>
+             <td>
+              <label >Color Collection<br>
+                  <input type="color" id="meter" name="color"/>
+                    
+               
+             </td>
+           </tr>
+           
+      </table>
+</div>
+<div class="rightdiv1">
+      <table class="righttab3">
+            <tr>
+                  <td>
+                        Date Taken<br>
+                        <input type="date" name="date"> 
+
+                  </td>
+                  
+            </tr>
+            <tr>
+                  <td>
+                        Time Taken<br>
+                        <input type="time" name="time">
+                  </td>
+                  
+            </tr>
+      </table>
+</div>
+       
+
+
+<div id="terms"> 
+      <input type="submit" class="button"  value="Submit">
+      <input type="button" class="button" onclick="myFunction()" value="Clear Form">
+</div>
+          
+          </div>
+    </form>
+</div>
+</body>
+</html>
